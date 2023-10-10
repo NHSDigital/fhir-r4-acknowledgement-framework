@@ -37,7 +37,7 @@ requests = "^2.25.1"
 [tool.poetry.dev-dependencies]
 flake8 = "^3.7.9"
 black = "^19.10b0"
-pip-licenses = "^2.0.1"
+pip-licenses = "^4.3.3"
 jinja2 = "^2.11.1"
 
 
