@@ -2,7 +2,19 @@ The Acknowlegdment Framework aims to become a generic and agnostic solution that
 
 The Acknowledgement Framework is in a draft state of development so please contact the IOPS Team if your product or programme would be interested to discuss this potential solution.
 
-##Use Cases
+# Use Cases
 GP Registration - Patient registers online to join a GP practice
 Galleri Pilot - Receive bio-sampling test results
 Other use cases can be included in the near future
+
+
+# IOPS-Validation
+
+
+This is a typescript module used to test HL7 FHIR resources using [validation-service-fhir-r4](https://github.com/NHSDigital/validation-service-fhir-r4)
+The configuration and setup of this service is not covered here.
+
+Current status of **validation-service-fhir-r4** 
+
+
+[![NHSDigital IOPS Validation)](https://github.com/NHSDigital/IOPS-Validation/actions/workflows/testingbranch.yml/badge.svg)](https://github.com/NHSDigital/IOPS-Validation/actions/workflows/testingbranch.yml)
