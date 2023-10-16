@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Bundle xmlns="http://hl7.org/fhir">
-	<id value="AppointmentRequestNegativeAcknowledgement"/>
+	<id value="f50c58ea-543f-4530-99fa-ceb7b9dbbed5"/>
 	<meta>
         <profile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-Bundle" />
 		<lastUpdated value="2020-09-20T10:22:00+00:00"/>
