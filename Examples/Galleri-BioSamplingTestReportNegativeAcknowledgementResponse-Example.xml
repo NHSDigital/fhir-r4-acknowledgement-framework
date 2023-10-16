@@ -1,5 +1,5 @@
 <Bundle xmlns='http://hl7.org/fhir'>
-<id value= 'BioSamplingTestReportNegativeAcknowledgementResponse'/>
+<id value= 'cf09cccc-2c9b-4238-91d2-66fa6ee845d3'/>
   <type value='message'/>
   <entry>
     <fullUrl value='https://fhir.hl7.org.uk/StructureDefinition/UKCore-MessageHeader'/>
