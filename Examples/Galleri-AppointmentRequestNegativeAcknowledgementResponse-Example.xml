@@ -1,5 +1,5 @@
 <Bundle xmlns='http://hl7.org/fhir'>
-<id value= 'AppointmentRequestNegativeAcknowledgementResponse'/>
+<id value= '6e7b1dbb-77d2-4ddd-ae0d-e4862a306c1d'/>
   <type value='message'/>
   <entry>
     <fullUrl value='https://fhir.hl7.org.uk/StructureDefinition/UKCore-MessageHeader'/>
