@@ -1,5 +1,5 @@
 <Bundle xmlns="http://hl7.org/fhir">
-	<id value="urn:uuid:2adbf7c4-8f21-4159-8681-3f41bc06215c" />
+	<id value="2adbf7c4-8f21-4159-8681-3f41bc06215c" />
 	<type value="message" />
 	<entry>
 		<fullUrl value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-MessageHeader" />
