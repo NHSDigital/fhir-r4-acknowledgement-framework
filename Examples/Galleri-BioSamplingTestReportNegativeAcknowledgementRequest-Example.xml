@@ -12,9 +12,6 @@
     <resource>
       <MessageHeader>
         <id value='a4409d7c-b613-477c-b623-87e60406c2f0'/>
-        <meta>
-          <profile value='https://fhir.hl7.org.uk/StructureDefinition/UKCore-MessageHeader'/>
-        </meta>
         <eventCoding>
           <system value='TBD'/>
           <code value='TBD'/>
@@ -44,9 +41,6 @@
     <resource>
       <Organization>
         <id value='d6407de7-0e86-45eb-93cb-035094aaa49e'/>
-        <meta>
-          <profile value='https://fhir.hl7.org.uk/StructureDefinition/UKCore-Organization'/>
-        </meta>
         <identifier>
           <system value='https://fhir.nhs.uk/Id/ods-organization-code'/>
           <value value='8KG14'/>
@@ -63,9 +57,6 @@
     <resource>
       <Organization>
         <id value='e78b5421-8d55-4f61-8cbf-bee1c69513f1'/>
-        <meta>
-          <profile value='https://fhir.hl7.org.uk/StructureDefinition/UKCore-Organization'/>
-        </meta>
         <identifier>
           <system value='http://terminology.hl7.org/NamingSystem/CLIA'/>
           <value value='${lab.cliaId} 34D2231294'/>
@@ -103,9 +94,6 @@
     <resource>
       <Organization>
         <id value='bf7a76d3-5b44-4194-a9e0-d1cc1ea5e50e'/>
-        <meta>
-          <profile value='https://fhir.hl7.org.uk/StructureDefinition/UKCore-Organization'/>
-        </meta>
         <identifier>
           <system value='https://fhir.nhs.uk/Id/ods-organization-code'/>
           <value value='X26'/>
@@ -126,9 +114,6 @@
     <resource>
       <Practitioner>
         <id value='f25e9d63-6a4e-4de6-b9dc-c912fda62b01'/>
-        <meta>
-          <profile value='https://fhir.hl7.org.uk/StructureDefinition/UKCore-Practitioner'/>
-        </meta>
         <identifier>
           <system value='https://fhir.nhs.uk/Id/sds-user-id'/>
           <value value='3415870223'/>
@@ -148,9 +133,6 @@
     <resource>
       <Patient>
         <id value='8d6c2cd5-0eec-496a-88d0-3785a135df09'/>
-        <meta>
-          <profile value='https://fhir.hl7.org.uk/StructureDefinition/UKCore-Patient'/>
-        </meta>
         <identifier>
           <system value='https://grail.com/patient-id'/>
           <value value='NHS-AB12-CD34'/>
@@ -163,9 +145,6 @@
     <resource>
       <ServiceRequest>
         <id value='d9df1431-22ac-462a-946a-f195f6c639af'/>
-        <meta>
-          <profile value='https://fhir.hl7.org.uk/StructureDefinition/UKCore-ServiceRequest'/>
-        </meta>
         <identifier>
           <system value='http://grail.com/grail-id'/>
           <value value='${sample.orderingGrailId} NHS9123123'/>
@@ -199,9 +178,6 @@
     <resource>
       <DiagnosticReport>
         <id value='3d2f37fd-ca19-4199-9f72-4871cfe12df1'/>
-        <meta>
-          <profile value='https://fhir.hl7.org.uk/StructureDefinition/UKCore-DiagnosticReport'/>
-        </meta>
         <basedOn>
           <reference value='urn:uuid:d9df1431-22ac-462a-946a-f195f6c639af'/>
         </basedOn>
@@ -242,9 +218,6 @@
     <resource>
       <Observation>
         <id value='9f7babcd-19cb-4063-b96b-61a20b2e07e6'/>
-        <meta>
-          <profile value='https://fhir.hl7.org.uk/StructureDefinition/UKCore-Observation'/>
-        </meta>
         <identifier>
           <system value='https://grail.com/grail-id'/>
           <value value='${sample.orderingGrailId} NHS9123123'/>
@@ -289,9 +262,6 @@
     <resource>
       <Observation>
         <id value='efae5859-28df-4e7d-be91-6df56d8215e4'/>
-        <meta>
-          <profile value='https://fhir.hl7.org.uk/StructureDefinition/UKCore-Observation'/>
-        </meta>
         <identifier>
           <system value='https://grail.com/grail-id'/>
           <value value='${sample.orderingGrailId} NHS9123123'/>
@@ -334,9 +304,6 @@
     <resource>
       <Observation>
         <id value='dacb177a-9501-4dcc-8b22-b941791ae0db'/>
-        <meta>
-          <profile value='https://fhir.hl7.org.uk/StructureDefinition/UKCore-Observation'/>
-        </meta>
         <identifier>
           <system value='https://grail.com/grail-id'/>
           <value value='${sample.orderingGrailId} NHS9123123'/>
@@ -373,9 +340,6 @@
     <resource>
       <Observation>
         <id value='3f9730c8-5527-4f58-9865-55aef4dfa11f'/>
-        <meta>
-          <profile value='https://fhir.hl7.org.uk/StructureDefinition/UKCore-Observation'/>
-        </meta>
         <identifier>
           <system value='https://grail.com/grail-id'/>
           <value value='${sample.orderingGrailId} NHS9123123'/>
@@ -412,9 +376,6 @@
     <resource>
       <Specimen>
         <id value='756a8361-79ce-4561-afcb-a91fe19df123'/>
-        <meta>
-          <profile value='https://fhir.hl7.org.uk/StructureDefinition/UKCore-Specimen'/>
-        </meta>
         <identifier>
           <system value='http://grail.com/grail-id'/>
           <value value='${sample.orderingGrailId} NHS9123123'/>

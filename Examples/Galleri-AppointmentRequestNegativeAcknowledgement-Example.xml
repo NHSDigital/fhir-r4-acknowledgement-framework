@@ -2,7 +2,6 @@
 <Bundle xmlns="http://hl7.org/fhir">
 	<id value="f50c58ea-543f-4530-99fa-ceb7b9dbbed5"/>
 	<meta>
-        <profile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-Bundle" />
 		<lastUpdated value="2020-09-20T10:22:00+00:00"/>
 	</meta>
 	<identifier>
@@ -16,9 +15,7 @@
 			<!--all the MessageHeader will be boiler-plate-->
 			<MessageHeader>
 				<id value="a50c58ea-543f-4530-99fa-ceb7b9dbbef5"/>
-				<meta>
-					<profile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-MessageHeader"/>
-				</meta>
+
 				<eventCoding>
 					<system value="https://fhir.nhs.uk/CodeSystem/message-event"/>
 					<code value="appointment"/>
@@ -57,9 +54,6 @@
 		<resource>
 			<Appointment>
 				<id value="urn:uuid:b3ce263f-aafc-41fb-a1bc-ba28e6ccf9cd"/>
-				<meta>
-					<profile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-Appointment"/>
-				</meta>
 				<!--standard HL7 extension for any replacement of previous appointment-->
 				<!--provided as an example of how to reference a previous appointement
 					being replaced-->
@@ -153,10 +147,7 @@
 			<!--this is the AppointmentAccessibility list (true/false)-->
 			<!--DataItems:AppointmentAccessibility-->
 			<QuestionnaireResponse>
-				<id value="efc85c67-50cb-4950-92c3-5d0d75f9a155"/>
-				<meta>
-					<profile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-QuestionnaireResponse"/>
-				</meta>				
+				<id value="efc85c67-50cb-4950-92c3-5d0d75f9a155"/>		
 				<questionnaire value="Questionnaire/AppointmentAccessibility"/>
 				<status value="completed"/>
 				<subject>
@@ -228,10 +219,7 @@
 			<!--this is the CommunicationAccessibility list (1 string & 2 booleans)-->
 			<!--DataItems:CommunicationAccessibility-->
 			<QuestionnaireResponse>
-				<id value="6a9f09f9-7863-44ac-9375-81eba9ac077f"/>
-				<meta>
-					<profile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-QuestionnaireResponse"/>
-				</meta>						
+				<id value="6a9f09f9-7863-44ac-9375-81eba9ac077f"/>					
 				<questionnaire value="Questionnaire/CommunicationAccessibility"/>
 				<status value="completed"/>
 				<subject>
