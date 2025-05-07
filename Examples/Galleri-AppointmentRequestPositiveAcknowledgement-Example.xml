@@ -2,7 +2,6 @@
   <id value='6e7b1dbb-77d2-4ddd-ae0d-e4862a306c1c'/>
   <meta>
     <lastUpdated value='2020-09-20T10:22:00+00:00'/>
-    <profile value='https://fhir.hl7.org.uk/StructureDefinition/UKCore-Bundle'/>
   </meta>
   <identifier>
     <system value='https://tools.ietf.org/html/rfc4122'/>
@@ -14,9 +13,6 @@
     <resource>
       <MessageHeader>
         <id value='a50c58ea-543f-4530-99fa-ceb7b9dbbef5'/>
-        <meta>
-          <profile value='https://fhir.hl7.org.uk/StructureDefinition/UKCore-MessageHeader'/>
-        </meta>
         <eventCoding>
           <system value='https://fhir.nhs.uk/CodeSystem/message-event'/>
           <code value='appointment'/>
@@ -52,9 +48,6 @@
     <resource>
       <Appointment>
         <id value='urn:uuid:b3ce263f-aafc-41fb-a1bc-ba28e6ccf9cd'/>
-        <meta>
-          <profile value='https://fhir.hl7.org.uk/StructureDefinition/UKCore-Appointment'/>
-        </meta>
         <extension url='http://hl7.org/fhir/StructureDefinition/request-replaces'>
           <valueReference>
             <reference value='/Appointment/3e1426c2-2d0d-4f0a-91b3-4627dfe08647'/>
@@ -126,9 +119,6 @@
     <resource>
       <QuestionnaireResponse>
         <id value='efc85c67-50cb-4950-92c3-5d0d75f9a155'/>
-        <meta>
-          <profile value='https://fhir.hl7.org.uk/StructureDefinition/UKCore-QuestionnaireResponse'/>
-        </meta>
         <questionnaire value='Questionnaire/AppointmentAccessibility'/>
         <status value='completed'/>
         <subject>
@@ -199,9 +189,6 @@
     <resource>
       <QuestionnaireResponse>
         <id value='6a9f09f9-7863-44ac-9375-81eba9ac077f'/>
-        <meta>
-          <profile value='https://fhir.hl7.org.uk/StructureDefinition/UKCore-QuestionnaireResponse'/>
-        </meta>
         <questionnaire value='Questionnaire/CommunicationAccessibility'/>
         <status value='completed'/>
         <subject>
